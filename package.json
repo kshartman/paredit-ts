@@ -1,0 +1,40 @@
+{
+  "name": "paredit-ts",
+  "version": "1.0.0",
+  "description": "S-expression parser, navigator, and structural editor — TypeScript rewrite of paredit.js",
+  "author": "kshartman",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.0.0"
+  },
+  "keywords": [
+    "paredit",
+    "s-expression",
+    "sexp",
+    "parser",
+    "structural-editing",
+    "emacs"
+  ]
+}
