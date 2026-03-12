@@ -1,5 +1,8 @@
 # paredit-ts
 
+[![npm version](https://img.shields.io/npm/v/paredit-ts.svg)](https://www.npmjs.com/package/paredit-ts)
+[![license](https://img.shields.io/npm/l/paredit-ts.svg)](LICENSE)
+
 S-expression parser, navigator, and structural editor for TypeScript/JavaScript. A ground-up TypeScript rewrite of [paredit.js](https://www.npmjs.com/package/paredit.js) with full type safety, zero runtime dependencies, and a drop-in compatible API.
 
 ## Why
